@@ -10,7 +10,7 @@ print('The current pointer position is {0}'.format(
 mouse.click(Button.left,2)
 
 totaltime = 15
-interval = 10
+interval = 60
 
 while True:
     print('The current pointer position is {0}'.format(mouse.position))
