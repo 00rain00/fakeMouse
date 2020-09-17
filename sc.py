@@ -14,7 +14,7 @@ interval = 60
 
 while True:
     print('The current pointer position is {0}'.format(mouse.position))
-    time.sleep(30)
+    time.sleep(180)
     
     mouse.click(Button.left,1)
 
